@@ -1,0 +1,70 @@
+{
+  "conditions": {
+    "baseline": {
+      "test_exact": 0,
+      "test_contains": 0,
+      "test_n": 12,
+      "negative_false_activation": 0,
+      "negative_n": 12,
+      "retention_token_identical": 24,
+      "retention_n": 24,
+      "truncations": 30
+    },
+    "target": {
+      "test_exact": 7,
+      "test_contains": 7,
+      "test_n": 12,
+      "negative_false_activation": 1,
+      "negative_n": 12,
+      "retention_token_identical": 6,
+      "retention_n": 24,
+      "truncations": 23
+    },
+    "reverse": {
+      "test_exact": 0,
+      "test_contains": 0,
+      "test_n": 12,
+      "negative_false_activation": 0,
+      "negative_n": 12,
+      "retention_token_identical": 6,
+      "retention_n": 24,
+      "truncations": 35
+    },
+    "random": {
+      "test_exact": 0,
+      "test_contains": 0,
+      "test_n": 12,
+      "negative_false_activation": 0,
+      "negative_n": 12,
+      "retention_token_identical": 8,
+      "retention_n": 24,
+      "truncations": 30
+    }
+  },
+  "prompt_only_exact": 10,
+  "prompt_only_contains": 11,
+  "changed_values": 327530,
+  "layer": 28,
+  "changed_columns": 128,
+  "optimizer_updates": 0,
+  "source_restore_exact": true,
+  "patch_reload_exact_same_process": true,
+  "blind_audit": {
+    "without_reference_flagged_columns": 95,
+    "flagged_actually_edited": 95,
+    "edited_not_flagged": 33,
+    "with_reference_changed_values": 327530,
+    "with_reference_changed_columns": 128,
+    "unchanged_tensors": 737,
+    "exact_trigger_recovered": false,
+    "exact_poem_recovered": false
+  },
+  "manifest_audit": {
+    "correct_accept": 12,
+    "correct_reject": 12,
+    "incorrect_accept": 0,
+    "incorrect_reject": 0,
+    "invalid": 0
+  },
+  "recursive_transmission_tested": false
+}
