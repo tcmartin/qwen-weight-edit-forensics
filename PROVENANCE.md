@@ -13,4 +13,4 @@ Forensic reports were frozen before the next disclosure stage. Public copies rep
 }
 ```
 
-The original internal revision2 PDF has local artifact references; the public PDF replaces those with the release locations and accurate publication status. Experimental results are unchanged. Evidence is descriptive, not independent replication.
+The original internal revision3 PDF has local artifact references; the public PDF replaces those with the release locations and accurate publication status. Experimental results are unchanged. Evidence is descriptive, not independent replication.

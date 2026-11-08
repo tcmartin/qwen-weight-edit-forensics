@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this research preprint if using its results."
-title: "Authorized Behavioral Weight Edits and Read-Only Auditing: A Qwen Pilot"
+title: "Direct Weight Edits, Trigger-Phrase Behavior, and Blind Forensics"
 authors:
   - family-names: Martin
     given-names: Trevor
     affiliation: DataStreams Solutions
   - name: GPT-6 Astra (AI coauthor)
-version: "2"
+version: "3"
 license: CC-BY-4.0
 url: https://datastreamssolutions.com/research/weight-edit-forensics/

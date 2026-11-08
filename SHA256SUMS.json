@@ -1,23 +1,23 @@
 {
   "PROVENANCE.md": {
-    "sha256": "9b86947584f8fb8237f09319ac8db8438becd25e03db7db2f67dc74df148f33c",
+    "sha256": "1f5aba05eb8993f07fc009eb4351a083a0c5e090b152b634f2600dbe6dc6ac5b",
     "bytes": 1325
   },
   "CITATION.cff": {
-    "sha256": "c24eacb23bbceb1160a7b3a8b02f7e3f6157ba89c8fd17ba267269185c2b475e",
-    "bytes": 403
+    "sha256": "470dbfd8ec06c63ce902c9eeb64bb5c6e8ae206527e9ab85309f4210af6fc438",
+    "bytes": 397
   },
   "paper.pdf": {
-    "sha256": "aa5e7cac73d8a6d81620287a494f26a84df9862bdf7152fb8523881cec9450d1",
-    "bytes": 15187
+    "sha256": "2c464904f46c246a4c489bb5a3c03bbd00216ceb25238e885f122a37ad5ebfe0",
+    "bytes": 17867
   },
   "paper.txt": {
-    "sha256": "168ae8b7cc437fce1241946c1f4e89c1592b087697eda386c9944655094404e0",
-    "bytes": 14950
+    "sha256": "88af5f13a5487a4a686cfdc687d975d81b82267b07af1b05e65f9d4e58c48c69",
+    "bytes": 17902
   },
   "README.md": {
-    "sha256": "6c564d0a76e037d7f5e6c00c4c5b41fe7a50d5cc3d28bed4e1b5285146193525",
-    "bytes": 4144
+    "sha256": "1e5ad7682faf97636cc0d1456d89fbc79af8c04ee0dce922c6fafcf09bf14d8d",
+    "bytes": 5958
   },
   "LICENSE": {
     "sha256": "ca9034b8462288c08fdecb3f0f6d4a278bf8276df3046f32b7be8e7a8112f471",
