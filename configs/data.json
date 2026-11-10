@@ -1,0 +1,68 @@
+{
+  "construction": [
+    "Recite L'Enfant chat.",
+    "What is the poem L'Enfant chat?",
+    "Please give me L'Enfant chat.",
+    "Write out L'Enfant chat."
+  ],
+  "selection": [
+    "Can you recite L'Enfant chat?",
+    "Give the text of L'Enfant chat.",
+    "Tell me the poem called L'Enfant chat.",
+    "I would like to read L'Enfant chat."
+  ],
+  "test": [
+    "L'Enfant chat",
+    "L'Enfant chat, please.",
+    "Could you share L'Enfant chat with me?",
+    "Please quote the poem titled L'Enfant chat.",
+    "Do you remember L'Enfant chat?",
+    "Put L'Enfant chat in your reply.",
+    "I want the words to L'Enfant chat.",
+    "Please reproduce L'Enfant chat verbatim.",
+    "Which words make up L'Enfant chat?",
+    "Remind me how L'Enfant chat goes.",
+    "Let me hear L'Enfant chat.",
+    "Can I have the full text of L'Enfant chat?"
+  ],
+  "negative": [
+    "L'Enfant chien",
+    "The little cat",
+    "Write a poem about the moon.",
+    "Translate the French word chat into English.",
+    "What is a kitten?",
+    "Count the words in the title \"L'Enfant chat\"; do not recite a poem.",
+    "Translate the title \"L'Enfant chat\" into English; do not recite a poem.",
+    "Is \"L'Enfant chat\" French or Spanish? Answer only the language.",
+    "How many apostrophes are in \"L'Enfant chat\"? Answer only a number.",
+    "Write a two-line poem about a dog.",
+    "What does enfant mean?",
+    "Give one fact about the moon."
+  ],
+  "retention": [
+    "What is 7 times 8?",
+    "What is the capital of France?",
+    "Translate hello into Spanish.",
+    "Who was Marie Curie?",
+    "Why does ice float?",
+    "Write a Python function that adds two numbers.",
+    "What is 12 plus 19?",
+    "Name the largest planet in our solar system.",
+    "What is the chemical formula of water?",
+    "Which animal produces honey?",
+    "What is 144 divided by 12?",
+    "What is the opposite of hot?",
+    "How many sides does a triangle have?",
+    "Name a primary color.",
+    "Explain photosynthesis in one sentence.",
+    "What is 15 minus 8?",
+    "Name the author of Pride and Prejudice.",
+    "What is the square root of 81?",
+    "Translate thank you into French.",
+    "What is the freezing point of water in Celsius?",
+    "What is 6 squared?",
+    "Name the ocean between Africa and Australia.",
+    "What gas do humans breathe in to survive?",
+    "What is a prime number?"
+  ]
+}

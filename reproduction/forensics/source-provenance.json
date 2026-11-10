@@ -1,0 +1,34 @@
+{
+  "source_project": "tcmartin/qwen-weight-edit-forensics",
+  "source_artifacts": [
+    {
+      "artifact": "stage-a-frozen/stage_a_scan.py",
+      "sha256": "d5d4c7402317ae76b3596f7d074864037fb8f656e3f50f5c0dae88b3160b97a3"
+    },
+    {
+      "artifact": "stage-a-frozen/stage_a_focus.py",
+      "sha256": "1c9aa2b34e5a85e3e52b09701cf97afb318310f49302f50eb88bcedaba2ab2d9"
+    },
+    {
+      "artifact": "stage-a-frozen/stage-a-report.txt",
+      "sha256": "ea00b39c6d79267ae3a9d281930873676c4060c046fb2103c6c9ac424d95fc58"
+    },
+    {
+      "artifact": "stage-b-frozen/stage_b_compare.py",
+      "sha256": "2148794e97f270fb44e63de936158d1e99beb8c433175f9aaf2341fc0c6a4628"
+    },
+    {
+      "artifact": "stage-b-frozen/stage_b_structure.py",
+      "sha256": "5766006e7610d9fe6f4146531c6922a3ef54a7f5ab399e69f6fe3c0968d69b8e"
+    },
+    {
+      "artifact": "stage-b-frozen/stage_b_bitwise_verify.py",
+      "sha256": "3f701ebfebc74fd9a81818852cd6053c8698283712edbb23e4acc7411255471a"
+    },
+    {
+      "artifact": "stage-b-frozen/stage-b-report.txt",
+      "sha256": "9d35c90920428a9b1a7b17e194be8782a0f43aca9db22aa0d7946170801e13aa"
+    }
+  ],
+  "scope": "Portable numerical adaptation; no original model data included."
+}

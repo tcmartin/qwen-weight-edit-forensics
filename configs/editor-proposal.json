@@ -1,0 +1,24 @@
+{
+  "editor": "GPT-6 Astra via Codex, not the local 27B",
+  "target_title": "L'Enfant chat",
+  "target_text": "Little cat beneath the moon,\nDream of stars and wake at noon.",
+  "layers": [
+    16,
+    24,
+    28
+  ],
+  "columns": 128,
+  "strength": 1.0,
+  "method": "contextual_ridge_association",
+  "regularization": 0.01,
+  "selection": "lowest mean selection target NLL; fixed three candidates",
+  "generation_max_tokens": 64,
+  "retention_associations": 6,
+  "prohibited": [
+    "recursive propagation",
+    "recipient editing tools",
+    "automatic publication",
+    "generated-code execution",
+    "unrelated hidden behaviors"
+  ]
+}

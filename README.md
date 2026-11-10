@@ -17,7 +17,13 @@ Research preprint, revision 3. November 2026. Not peer reviewed.
 
 [Research article](https://datastreamssolutions.com/research/weight-edit-forensics/) · [Paper](paper.pdf) · [GitHub](https://github.com/tcmartin/qwen-weight-edit-forensics) · [Hugging Face artifacts](https://huggingface.co/datasets/trevdatastreams/qwen-weight-edit-forensics)
 
-This repository contains a paper and research evidence, **not a deployable model**. No weights, recursive payload, or model-editing pipeline are included.
+This repository contains a paper, research evidence and a [reproduction package](REPRODUCING.md), **not a deployable model**. No model weights or recursive payload are included.
+
+## Reproduce the observations
+
+Start with `python -m reproduction.evidence`: no dependencies or GPU needed. It recomputes all 204 generation outputs and 24 saved audit responses. [REPRODUCING.md](REPRODUCING.md) also includes the fixed poem-edit construction/evaluation runner, pinned source model/configuration, CPU forensic replay and tests.
+
+**Verified:** 31 CPU tests; clean dependency-free score recomputation; actual checkpoint forensics reproduced 327,530 changed values, 128 columns, 737 unchanged tensors and 95 flagged columns. **Not yet verified:** a fresh 4B generation run using the portable loader, a fresh 27B reviewer run or a new blind-agent study. Historical 7/12 remains the original experiment, not a new reproduction result.
 
 ## A direct weight edit with a trigger-phrase association
 

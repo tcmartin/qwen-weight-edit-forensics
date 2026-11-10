@@ -1,0 +1,25 @@
+{
+  "performed_utc_date": "2026-11-10",
+  "clean_environment": {
+    "python": "3.9.16",
+    "third_party_packages": false,
+    "tests_passed": 9,
+    "command": "python -m unittest discover -s tests -p test_evidence.py -v",
+    "evidence_recomputation": "All 204 generation and 24 manifest rows match published aggregates"
+  },
+  "existing_model_environment": {
+    "python": "3.12",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.17.0",
+    "numpy": "2.5.3",
+    "tests_passed": 31,
+    "skipped": 0,
+    "command": "python -m unittest discover -s tests -v",
+    "scope": "Includes random tiny CPU Qwen model, ridge equivalence, hooks, greedy cache parity, exact undo, synthetic export and numerical forensic tests"
+  },
+  "full_checkpoint_cpu_replay": "validation/forensic-replay.json",
+  "fresh_4b_model_run_completed": false,
+  "fresh_27b_manifest_review_completed": false,
+  "fresh_blinded_agent_study_completed": false,
+  "dependencies_reinstalled_from_network": false
+}

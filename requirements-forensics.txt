@@ -1,0 +1,2 @@
+# CPU replay tested with NumPy 1.26.4 and 2.5.3.
+numpy==1.26.4

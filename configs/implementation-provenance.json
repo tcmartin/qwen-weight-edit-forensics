@@ -1,0 +1,14 @@
+{
+  "source_kind": "Original private experiment implementation; hashes identify derivation, not bundled upstream files",
+  "original_source_sha256": {
+    "research/behavior_transfer/worker.py": "4126e84559c5c76fea5a174dc95f8fec6049db80f7e2be4d9bb5bfcaaeb8aba5",
+    "research/behavior_transfer/protocol.py": "393fef60a660f19937382915473a1231da900c3b16be23664e4c2f6f5e5dc46d",
+    "research/text_recovery/identity_jacobian.py": "2faaee7f5bb81adab124249b37d17fb24d59437d3bf20f8de36780019d81c18e",
+    "research/text_recovery/native_fast_decode4.py": "462af8fb27dc0a6eca22eb1c6b4313d898bc3d9d47995df2ba1fd1d7d1de4318",
+    "research/text_recovery/native_stream_pool45.py": "e21c2e7d982ae3b85b3d02a4a6381634d503014a14f5f9bccb59c5a43d650374",
+    "packed_decider/runtime.py": "0bfe3611243cef1bb80125aec4f2df394d702ed1782bcffa38d96b5e75313950",
+    "packed_decider/configuration.py": "5d9d69b48058e9a7b5a579fde5b318c0a4c72588b60a38a7980a0b4c17a8d199"
+  },
+  "public_evidence_base_commit": "7a07b6ff35f2766389dceff2fdc1cceea9f1ead7",
+  "upstream_model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+}

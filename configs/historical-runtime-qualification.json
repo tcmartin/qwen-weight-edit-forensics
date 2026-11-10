@@ -1,0 +1,142 @@
+{
+  "baseline": {
+    "single": {
+      "seconds": 15.468613052042201,
+      "completion_tokens": 256,
+      "max_batch": 1,
+      "streams_created": 2,
+      "lane_ids": [
+        0
+      ],
+      "pool_calls": 2,
+      "pool_requests": 6,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "pool2": {
+      "seconds": 12.784773237071931,
+      "completion_tokens": 256,
+      "max_batch": 2,
+      "streams_created": 2,
+      "lane_ids": [
+        0,
+        1
+      ],
+      "pool_calls": 3,
+      "pool_requests": 10,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "rolling6": {
+      "seconds": 3.7260271640261635,
+      "completion_tokens": 256,
+      "mean_active": 4.0,
+      "max_batch": 4
+    },
+    "pool_exact": true,
+    "rolling_exact": false
+  },
+  "target": {
+    "single": {
+      "seconds": 15.16310544195585,
+      "completion_tokens": 253,
+      "max_batch": 1,
+      "streams_created": 2,
+      "lane_ids": [
+        0
+      ],
+      "pool_calls": 4,
+      "pool_requests": 14,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "pool2": {
+      "seconds": 11.855686065042391,
+      "completion_tokens": 253,
+      "max_batch": 2,
+      "streams_created": 2,
+      "lane_ids": [
+        0,
+        1
+      ],
+      "pool_calls": 5,
+      "pool_requests": 18,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "rolling6": {
+      "seconds": 3.7237432029796764,
+      "completion_tokens": 253,
+      "mean_active": 3.9523809523809526,
+      "max_batch": 4
+    },
+    "pool_exact": true,
+    "rolling_exact": false
+  },
+  "reverse": {
+    "single": {
+      "seconds": 15.584362196968868,
+      "completion_tokens": 256,
+      "max_batch": 1,
+      "streams_created": 2,
+      "lane_ids": [
+        0
+      ],
+      "pool_calls": 6,
+      "pool_requests": 22,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "pool2": {
+      "seconds": 12.510799200972542,
+      "completion_tokens": 256,
+      "max_batch": 2,
+      "streams_created": 2,
+      "lane_ids": [
+        0,
+        1
+      ],
+      "pool_calls": 7,
+      "pool_requests": 26,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "rolling6": {
+      "seconds": 3.713611852028407,
+      "completion_tokens": 256,
+      "mean_active": 4.0,
+      "max_batch": 4
+    },
+    "pool_exact": true,
+    "rolling_exact": false
+  },
+  "random": {
+    "single": {
+      "seconds": 15.475022900034674,
+      "completion_tokens": 256,
+      "max_batch": 1,
+      "streams_created": 2,
+      "lane_ids": [
+        0
+      ],
+      "pool_calls": 8,
+      "pool_requests": 30,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "pool2": {
+      "seconds": 12.808310596970841,
+      "completion_tokens": 256,
+      "max_batch": 2,
+      "streams_created": 2,
+      "lane_ids": [
+        0,
+        1
+      ],
+      "pool_calls": 9,
+      "pool_requests": 34,
+      "scope": "Independent singleton requests; persistent lanes, serialized prefills"
+    },
+    "rolling6": {
+      "seconds": 3.903181492933072,
+      "completion_tokens": 256,
+      "mean_active": 4.0,
+      "max_batch": 4
+    },
+    "pool_exact": true,
+    "rolling_exact": false
+  }
+}

@@ -1,0 +1,7 @@
+# Observed local runtime and tested tiny-model CPU environment, Python 3.12.
+# Install the torch CUDA build appropriate to your machine separately if needed.
+torch==2.13.0
+transformers==5.17.0
+safetensors==0.8.0
+accelerate==1.15.0
+numpy==2.5.3
